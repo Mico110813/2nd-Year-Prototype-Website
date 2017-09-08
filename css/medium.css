@@ -1,0 +1,222 @@
+body {
+	margin:0px auto;
+	padding:0px;
+	width:800px;
+}
+
+.pageheader {
+	display:table;
+	width:100%;
+	height:100%;
+}
+.dragons {
+	display:table-cell;
+	width:500px;
+	height:140px;
+	padding:0px 0px;
+	margin-top:10px;
+	background-image:url('../assets/DragonLogo3.png');
+	background-position:left;
+	background-size:contain;
+	background-repeat:no-repeat;
+
+}
+aside {
+	height:100px;
+	width:280px;
+	background-size:contain;
+	background-repeat:no-repeat;
+	margin-bottom:20px;
+}
+nav {
+	width:100%;
+	height:3.7em;
+}
+body > nav ul li {
+	width:120px;
+	float:left;
+}
+body > nav ul li a {
+	width:120px;
+}
+
+.displayed {
+	position:relative;
+	background-image:url('../assets/kids.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+    display: block;
+	width:100%;
+	height:260px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.displayed .text {
+	font-family:segoe script, sans-serif;
+    position:absolute;
+    top:220px;
+    left:400px;
+    width:600px;
+}
+.alignment {
+	display:table;
+	width:100%;
+}
+article {
+	display:table-cell;
+	height:inherit;
+	min-height:200px;
+	width:78%;
+	float:left;
+}
+
+#userpage {
+	display:table;
+	width:50%;
+	padding:5px;
+	margin-left:auto;
+	margin-right:auto;
+	min-height:250px;
+}
+#editdet {
+	display:table-cell;
+	height:110px;
+	width:130px;
+	margin:10px;
+	margin-left:10px;
+	text-align:center;
+}
+#stulevel {
+	display:table-cell;
+	height:110px;
+	width:130px;
+	margin:10px;
+	margin-left:10px;
+	text-align:center;
+}
+
+#right {
+	display:table-cell;
+	width:15%;
+	padding:5px;
+	margin:5px;
+	float:right;	
+	min-height:200px;
+}
+/*
+margin left + border left + padding left + width + padding right + border right + margin right
+
+Width of article + aside =
+- Article -
+5px + 1px + 5px + 606px + 5px + 1px + 5px = 628px
+
+- Aside -
+5px + 1px + 5px + 150px + 5px + 1px + 5px = 172px
+
+Total width = 628 + 172 = 800px
+
+*/
+body > footer > nav {
+	float:right;
+}
+body > footer > span {
+	float:left;
+	width:250px;
+}
+#facebook{
+	height:85px;
+	width:85px;
+	margin:10px;
+	margin-left:10px;
+	float:right;
+}
+
+ #twitter{
+	display:none;
+	height:85px;
+	width:85px;
+	margin:10px;
+	margin-left:10px;
+	float:right;
+}
+.elements {
+	display:table;
+	width:90%;
+	margin-left:50px;
+}
+#earth{
+	display:table-cell;
+	background-image:url('../assets/EARTH.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	text-align:center;
+	font-size:0.9em;
+	width:135px;
+	height: 135px;
+	float:left;
+	padding:4px;
+	margin:17px;
+}
+#air {
+	display:table-cell;
+	background-image:url('../assets/WIND.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	text-align:center;
+	font-size:0.9em;
+	width:135px;
+	height: 135px;
+	float:left;
+	padding:4px;
+	margin:17px;
+}
+#fire {
+	display:table-cell;
+	background-image:url('../assets/FIRE.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	text-align:center;
+	font-size:0.9em;
+	width:135px;
+	height: 135px;
+	float:left;
+	padding:4px;
+	margin:17px;
+}
+#water {
+	display:table-cell;
+	background-image:url('../assets/WATER.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	text-align:center;
+	font-size:0.9em;
+	width:135px;
+	height: 135px;
+	float:left;
+	padding:4px;
+	margin:17px;
+}
+#hedgeimage{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url('../assets/hedge.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	height:110px;
+	width:110px;
+}
+#markimage{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url('../assets/mark.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	height:110px;
+	width:110px;
+}
+.highlight{
+	text-align:center;
+}

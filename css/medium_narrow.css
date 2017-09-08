@@ -1,0 +1,213 @@
+body {
+	margin:0px auto;
+	padding:0px;
+	font-size:10px;
+	width:700px;
+}
+.pageheader {
+	display:table;
+	width:100%;
+	height:100%;
+}
+.dragons {
+	display:table-cell;
+	width:500px;
+	height:140px;
+	padding:0px 0px;
+	margin-top:10px;
+	background-image:url('../assets/DragonLogo3.png');
+	background-position:left;
+	background-size:contain;
+	background-repeat:no-repeat;
+
+}
+aside {
+	height:100px;
+	width:280px;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+.displayed {
+	position:relative;
+	background-image:url('../assets/kids.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+    display: block;
+	width:100%;
+	height:260px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.displayed .text {
+	font-family:segoe script, sans-serif;
+    position:absolute;
+    top:220px;
+    left:320px;
+    width:600px;
+}
+
+#userpage {
+	display:table;
+	width:50%;
+	padding:5px;
+	margin-left:auto;
+	margin-right:auto;
+	min-height:250px;
+}
+#editdet {
+	display:table-cell;
+	height:110px;
+	width:130px;
+	margin:10px;
+	margin-left:10px;
+	text-align:center;
+}
+#stulevel {
+	display:table-cell;
+	height:110px;
+	width:130px;
+	margin:10px;
+	margin-left:10px;
+	text-align:center;
+}
+
+header h1 {
+	margin:0px;
+}
+nav {
+	width:100%;
+	height:3.7em;
+}
+body > nav ul li {
+	width:100px;
+	float:left;
+}
+body > nav ul li a {
+	width:100px;
+}
+.alignment {
+	display:table;
+	width:100%;
+}
+article {
+	display:table-cell;
+	width:70%;
+	padding:4px;
+	width:78%;
+	float:left;
+}
+#right {
+	display:table-cell;
+	width:15%;
+	padding:5px;
+	margin:5px;
+	float:right;	
+	min-height:200px;
+}
+body > footer > nav {
+	display:block;
+	width:100%;
+}
+body > footer > span {
+	float:left;
+	width:189px;
+}
+#facebook {
+	height:70px;
+	width:70px;
+	margin:10px;
+	margin-left:10px;
+	float: right;
+}
+#twitter{
+	display:none;
+	height:70px;
+	width:70px;
+	margin:10px;
+	margin-left:10px;
+	float: right;
+}
+
+
+.elements {
+	display:table;
+	width:90%;
+	margin-left:50px;
+}
+#earth{
+	display:table-cell;
+	background-image:url('../assets/EARTH.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	text-align:center;
+	font-size:0.8em;
+	width:110px;
+	height: 110px;
+	float:left;
+	padding:5px;
+	margin:12px;
+}
+#air {
+	display:table-cell;
+	background-image:url('../assets/WIND.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	text-align:center;
+	font-size:0.8em;
+	width:110px;
+	height: 110px;
+	float:left;
+	padding:4px;
+	margin:12px;
+}
+#fire {
+	display:table-cell;
+	background-image:url('../assets/FIRE.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	text-align:center;
+	font-size:0.8em;
+	width:110px;
+	height: 110px;
+	float:left;
+	padding:4px;
+	margin:12px;
+}
+#water {
+	display:table-cell;
+	background-image:url('../assets/WATER.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	text-align:center;
+	font-size:0.8em;
+	width:110px;
+	height: 110px;
+	float:left;
+	padding:4px;
+	margin:12px;
+}
+#hedgeimage{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url('../assets/hedge.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	height:100px;
+	width:100px;
+}
+#markimage{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url('../assets/mark.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	height:100px;
+	width:100px;
+}
+.highlight{
+	text-align:center;
+}

@@ -1,0 +1,137 @@
+body {
+	font-family:Arial, Helvetica, 'sans-serif';
+	font-size:10px;
+}
+header {
+	margin-top:5px;
+}
+/* only used to display development statement - obsolete now
+.warning {
+	font-size:0.7em;
+	width:40%;
+	float:right;
+	height:90px;
+}
+*/
+#gallery {
+  list-style-type:none;
+    margin-right:10px;
+    margin-bottom:10px;
+    float:left;
+}
+
+p, li {	font-size:1.4em; }
+
+body > footer span { font-size:1.5em; }
+
+h3 { font-size:1.7em; } h2 { font-size:2.0em; } h1 { font-size:2.5em;}
+
+
+header h1 { 
+	font-size:4em; 
+}
+
+nav {
+	background-color:rgb(29,131,102);
+	font-family:segoe script, sans-serif;
+	padding:0px;
+}
+nav ul {
+	margin:0px;
+	padding:0px;
+}
+nav ul li {
+	list-style-type:none;
+	text-align:center;
+}
+body > nav ul li {
+	background-color:#aaaaaa;
+}
+body > nav ul li a { display:inline-block;margin:0px; }
+nav ul li a {
+	padding:10px;
+	text-decoration:none;
+}
+nav ul li a:link, nav ul li a:visited {
+	background-color:rgb(29,131,102);
+	color:#ffffff;
+
+}
+nav ul li a:hover, nav ul li a:active {
+	background-color:#ffffff;
+	color:#666666;
+}
+section { width:100%;}
+
+section h1 {
+	background-color:#eeeeee;
+	padding:5px;
+	margin:0px;
+}
+
+aside {
+	background-color:rgb(29,131,102);;
+	border:3px solid #e6a620;
+	padding:5px;
+	margin:5px;
+	margin-bottom:20px;
+	float:right;
+
+}
+article {
+	border:0px solid #666666;
+	padding:5px;
+	margin:5px;
+}
+
+.highlight {
+	font-family:segoe script, sans-serif;
+}
+
+body > footer {
+	clear:both;
+	padding-top:0px;
+	height:40px;
+	background-color:rgb(29,131,102);;
+	margin-bottom:5px;
+}
+body > footer > nav {
+	width:auto;
+	height:30px;
+	margin:0px;
+	padding:0px;
+	background-color:rgb(29,131,102);;
+}
+body > footer > nav ul li {
+	width:auto;
+	height:auto;
+	float:right;
+	margin-top:5px;
+}
+body > footer > span {
+	margin:0px;
+	padding-top:8px;
+	padding-bottom:5px;
+	background-color:rgb(29,131,102);;
+}
+
+body > footer > nav ul li a {
+	height:inherit;
+	width:auto;
+	padding:5px 20px 5px 20px;
+	margin-top:5px
+}
+#menubutton {
+	display:none;
+}
+fieldset {
+	padding:1em;
+	margin: 4px;
+	font-size: 0.9em;
+}
+td {
+	width:70px;
+	display:table-cell;
+	text-align:center;
+}
+

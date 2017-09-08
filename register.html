@@ -1,0 +1,132 @@
+<!doctype html>
+
+<html lang="en-gb" dir="ltr">
+
+<head>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	
+	<title>Dragons Registration</title>
+	
+	<link rel="tab icon" href="assets/favicon.png">
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 1000px)" href="css/wide.css" />
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 840px) and (max-width:999px)" href="css/medium.css" />
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 640px) and (max-width:839px)" href="css/medium_narrow.css" />
+	<link rel="stylesheet" type="text/css" media="screen and (max-width:639px)" href="css/narrow.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
+
+</head>
+
+<body>
+		<!--[if IE]><div style='clear: both; height: 112px; padding:0; position: relative;'><a href="http://www.theie8countdown.com/ie-users-info"><img src="http://www.theie8countdown.com/assets/badge_iecountdown.png" border="0" height="112" width="348" alt="" /></a></div><![endif]-->
+	
+	<header>
+		
+		<div class="pageheader">
+		
+			<div class="dragons"></div>
+			
+		
+	</header>
+	
+	
+		
+	<nav>
+		<div id="menubutton">Menu</div>
+		<ul id="menu">
+			<li><a href="index.php">Home</a></li>
+			<li><a href="aboutus.php">About Us</a></li>
+			<li><a href="classes.php">Classes</a></li>
+			<!--<li><a href="#">Gallery</a></li>-->
+			<li><a href="contact.php">Contact</a></li>
+		</ul>
+		
+	</nav>
+	
+	<div class="displayed">
+		<div class="text">
+			<p> Inspiring health through fitness and agility </p>
+		</div>
+	</div>
+
+	<form id="registeruser" name="registeruser" method="post" action="register.php">
+		<fieldset><legend>Registration Form</legend>
+			<label for="username">Username : </label><input type="text" id="username" name="username" required size="15" /><span id="usernameFb"></span><br />
+			<label for="forename">Foreame : </label><input type="text" id="forename" name="forename" required size="15" /><span id="forenameFb"></span><br />
+			<label for="surname">Surname : </label><input type="text" id="surname" name="surname" required size="15" /><span id="surnameFb"></span><br />
+			<label for="emailadd">Email Address : </label><input type="email" id="emailadd" name="emailadd" required size="30" /><span id="emailFb"></span><br />
+			<!--<label for="dob">Date of Birth (YYYY-MM-DD) : </label><input type="text" id="dob" name="dob" required size="10" /><br/> -->
+			<fieldset>
+				<legend>Date of Birth</legend>
+				<label class="datelabel" for="dayob">Day</label>
+					<select name="dayob" id="dayob">
+					</select>
+				<label class="datelabel" for="monthob">Month</label>
+					<select name="monthob" id="monthob">
+						<option value="1">January</option>
+						<option value="2">February</option>
+						<option value="3">March</option>
+						<option value="4">April</option>
+						<option value="5">May</option>
+						<option value="6">June</option>
+						<option value="7">July</option>
+						<option value="8">August</option>
+						<option value="9">September</option>
+						<option value="10">October</option>
+						<option value="11">November</option>
+						<option value="12">December</option>
+					</select>
+				<label class="datelabel" for="yearob">Year</label>
+					<select name="yearob" id="yearob">
+					</select>
+					<!--<span id="ageFb"></span>-->
+			</fieldset>
+			<label for="emercont">Emergency Contact :</label><input type="text" id="emercont" name="emercont" required size="30" /><span id="emercontFb"></span><br />
+			<label for="emernum">Emergency Number :</label><input type="text" id="emernum" name="emernum" required size="15" /><span id="emernumFb"></span><br />
+			<label for="userpass">Password : </label><input type="password" id="userpass" name="userpass" required size="15" /><span id="userpassFb"></span><br />
+			<label for="passstrresult">Strength</label><div id="passstrresult" style="height:20px;display:inline-block;margin-left:15px;"></div><br />
+			<label for="secondpass">Password : </label><input type="password" id="secondpass" name="secondpass" required size="15" /><span id="secondpassFb"></span><br />
+			<label for="tnc">I agree to the <a target="_blank" href="tandc.php", scrollbars=yes,menubar=yes,resizable=yes,left=30,top=30,height=500,width=650)>Terms and Conditions</a></label><input type="checkbox" name="tnc" id="tnc" required /><span id="tncFb"></span><br />
+			<button type="reset" id="submit">Reset</button><button type="submit" id="submit">Register</button>
+		</fieldset>
+	</form>
+	
+	<footer>
+	
+	<span>&copy; 2014 Mico Web Design</span>
+		
+	<nav>
+	
+		<ul>
+			<!--<li><a href="#">Sitemap</a></li>
+			<li><a href="#">Terms</a></li>
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">To Top</a></li>-->
+			<li><a href="tandc.php">Terms</a></li>
+			<li><a href="contact.php">Contact Us</a></li>
+		</ul>
+		
+	</nav>
+	
+	</footer>
+	
+		
+</body>
+
+
+<script src="js/register.js"></script>
+<script src="js/functions.js"></script>
+<script>
+document.onreadystatechange = function(){
+	if(document.readyState=="complete") {
+		prepareRegister();
+		prepareMenu();
+	}
+}
+</script>
+
+
+</html>

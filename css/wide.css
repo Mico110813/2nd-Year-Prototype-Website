@@ -1,0 +1,256 @@
+body {
+	margin:0px auto;
+	padding:0px;
+	width:960px;
+	font-size:12px;
+}
+
+.pageheader {
+	display:table;
+	width:100%;
+	height:100%;
+}
+.dragons {
+	display:table-cell;
+	width:500px;
+	height:140px;
+	padding:0px 0px;
+	margin-top:10px;
+	background-image:url('../assets/DragonLogo3.png');
+	background-position:left;
+	background-size:contain;
+	background-repeat:no-repeat;
+
+}
+aside {
+	height:100px;
+	width:280px;
+	background-size:contain;
+	background-repeat:no-repeat;
+	margin-bottom:20px;
+}
+
+nav {
+	width:100%;
+	height:3.7em;
+	
+}
+body > nav ul li {
+	width:140px;
+	float:left;
+}
+body > nav ul li a {
+	width:160px;
+}
+
+.displayed {
+	position:relative;
+	background-image:url('../assets/kids.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+    display: block;
+	width:100%;
+	height:370px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.displayed .text {
+	font-family:segoe script, sans-serif;
+    position:absolute;
+    top:315px;
+    left:490px;
+    width:600px;
+}
+	
+.alignment {
+	display:table;
+	width: 100%;
+}
+
+article {
+	display:table-cell;
+	min-height:250px;
+	width:78%;
+	float:left;
+  
+}
+.classinfo {
+		width:100%;
+}
+
+#userpage {
+	display:table;
+	width:50%;
+	padding:5px;
+	margin-left:auto;
+	margin-right:auto;
+	min-height:250px;
+}
+#editdet {
+	display:table-cell;
+	height:110px;
+	width:130px;
+	margin:10px;
+	margin-left:10px;
+	text-align:center;
+}
+#stulevel {
+	display:table-cell;
+	height:110px;
+	width:130px;
+	margin:10px;
+	margin-left:10px;
+	text-align:center;
+}
+
+#right {
+	display:table-cell;
+	width:15%;
+	padding:5px;
+	margin:5px;
+	float:right;	
+	min-height:250px;
+}
+#facebook {
+	height:110px;
+	margin:10px;
+	margin-left:10px;
+}
+/*removed twitter link until there is an account*/
+#twitter{
+	display:none;
+	height:110px;
+	margin:10px;
+	margin-left:10px;
+}
+
+.elements {
+	display:table;
+	width:90%;
+	margin-left:50px;
+}
+#earth{
+	display:table-cell;
+	background-image:url('../assets/EARTH.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	text-align:center;
+	width:160px;
+	height: 160px;
+	float:left;
+	padding:5px;
+	margin:20px;
+	/*border:1px solid #666666;
+	border-width:5px;
+	border-colour:#488AC7;
+	border-stye: inset;*/
+}
+#air {
+	display:table-cell;
+	background-image:url('../assets/WIND.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	text-align:center;
+	width:160px;
+	height: 160px;
+	float:left;
+	padding:5px;
+	margin:20px;
+	/*border:1px solid #666666;
+	border-width:5px;
+	border-colour:#488AC7;
+	border-stye: inset;*/
+}
+#fire {
+	display:table-cell;
+	background-image:url('../assets/FIRE.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	text-align:center;
+	width:160px;
+	height: 160px;
+	float:left;
+	padding:5px;
+	margin:20px;
+	/*border:1px solid #666666;
+	border-width:5px;
+	border-colour:#488AC7;
+	border-stye: inset;*/
+}
+#water {
+	display:table-cell;
+	background-image:url('../assets/WATER.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	text-align:center;
+	width:160px;
+	height: 160px;
+	float:left;
+	padding:5px;
+	margin:20px;
+	/*border:1px solid #666666;
+	border-width:5px;
+	border-colour:#488AC7;
+	border-stye: inset;*/
+}
+/*
+margin left + border left + padding left + width + padding right + border right + margin right
+
+Width of article + aside =
+- Article -
+5px + 1px + 5px + 618px + 5px + 1px + 5px = 640px
+
+- Aside -
+5px + 1px + 5px + 298px + 5px + 1px + 5px = 320px
+
+Total width = 640 + 320 = 960px
+
+*/
+body > footer > nav {
+	float:left;
+}
+body > footer > span {
+	float:right;
+	width:320px;
+}
+.aboutus {
+	display:table;
+	width:90%;
+	margin-left:50px;
+}
+#mark, #hedge{
+	display:table-cell;
+	text-align:center;
+	min-height:200px;
+	width:40%;
+	padding:5px;
+	margin:20px;
+}
+#hedgeimage{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url('../assets/hedge.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	height:120px;
+	width:120px;
+}
+#markimage{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url('../assets/mark.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+	height:120px;
+	width:120px;
+}
+.levels {
+	font-family:segoe script, sans-serif;
+	display:table-cell;
+	height:100px;
+	width:100px;
+	text-align:center
+}

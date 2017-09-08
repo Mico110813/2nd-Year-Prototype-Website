@@ -1,0 +1,55 @@
+body {
+	font-family:Arial, Helvetica, 'sans-serif';
+	font-size:10pt;
+}
+p, li {	font-size:1.5em; }
+body > footer span { font-size:1.5em; }
+h3 { font-size:1.7em; } h2 { font-size:2.0em; } h1 { font-size:2.5em;}
+header h1 { font-size:4em; }
+header {
+	background-image:url('../assets/GoldfishSprite.png');
+	background-position:right;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+nav {
+	display:none;
+}
+
+section { width:100%; display:block;}
+section h1 {
+	background:none;
+	padding:5pt;
+	margin:0pt;
+}
+aside {
+	background:none;
+	border:1pt solid #666666;
+	padding:5pt;
+	margin:5pt;
+
+}
+article {
+	border:1pt solid #666666;
+	padding:5pt;
+	margin:5pt;
+}
+
+article > footer { font-size:0.8em;font-style:italic; }
+body > footer {
+	clear:both;
+	padding-top:5pt;
+	height:30pt;
+	background:none;
+}
+body > footer > nav {
+	display:none;
+	
+}
+
+body > footer > span {
+	margin:0pt;
+	padding-top:5pt;
+	padding-bottom:5pt;
+}
